@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="180" cy="120" r="160" fill="#22d3ee" opacity="0.18"/>
+  <circle cx="1040" cy="140" r="220" fill="#a855f7" opacity="0.16"/>
+  <circle cx="860" cy="560" r="260" fill="#f97316" opacity="0.12"/>
+
+  <rect x="70" y="85" width="1060" height="460" rx="34" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+
+  <text x="120" y="220" fill="#e2e8f0" font-family="Inter, Arial" font-size="56" font-weight="800">Mahaz Abdullah</text>
+  <text x="120" y="290" fill="url(#g)" font-family="Inter, Arial" font-size="42" font-weight="800" filter="url(#glow)">Full Stack Web Developer</text>
+  <text x="120" y="350" fill="#cbd5e1" font-family="Space Grotesk, Arial" font-size="28" font-weight="500">Pakistan • React • JavaScript • .NET • C#</text>
+
+  <text x="120" y="430" fill="#94a3b8" font-family="Space Grotesk, Arial" font-size="22" font-weight="500">portfolio-lovat-nine-85.vercel.app</text>
+</svg>
